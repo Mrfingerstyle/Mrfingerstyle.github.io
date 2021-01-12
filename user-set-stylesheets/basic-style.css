@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container div {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    border: 2px solid grey;
+    border-radius: 20%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+.container .right {
+    float: right;
+}
+.container .middle {
+    margin-left: 90px;
+}
+.container div a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+.container div a:hover {
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
