@@ -17,11 +17,8 @@
     text-align: center;
     line-height: 200px;
 }
-.container .right {
-    float: right;
-}
-.container .middle {
-    margin-left: 90px;
+.container div {
+    margin-right: 90px;
 }
 .container div a {
     text-decoration: none;
